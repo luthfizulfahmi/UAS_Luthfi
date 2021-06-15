@@ -103,11 +103,11 @@ class _LoginPageState extends State<LoginPage> {
         body: Text("Nirm Yang Anda Masukkan Salah"));
   }
 }
-class MarianaSimaremareDataTable extends StatefulWidget {
-  _MarianaSimaremareDataTableState createState() => _MarianaSimaremareDataTableState();
+class LuthfizulfahmiDataTable extends StatefulWidget {
+  _LuthfizulfahmiDataTableState createState() => _LuthfizulfahmiDataTableState();
 }
 
-class _MarianaSimaremareDataTableState extends State<MarianaSimaremareDataTable> {
+class _LuthfizulfahmiDataTableState extends State<LuthfizulfahmiDataTable> {
   List<DataMahasiswa> barang;
 
   void initState() {
@@ -118,7 +118,7 @@ class _MarianaSimaremareDataTableState extends State<MarianaSimaremareDataTable>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Mariana Simaremare - 6SIA11'),
+        title: Text('Luthfi Zulfahmi - 6SIA1'),
       ),
       body: ListView(children: <Widget>[
         Center(
@@ -172,7 +172,7 @@ class DataMahasiswa {
   static List<DataMahasiswa> getDataBarang() {
     return <DataMahasiswa>[
       DataMahasiswa(
-          id: "Nama", namabarang: "Mariana Simaremare", ),
+          id: "Nama", namabarang: "Luthfi Zulfahmi", ),
       DataMahasiswa(
           id: "Jenis Kelamin", namabarang: "Perempuan", ),
       DataMahasiswa(id: "Alamat", namabarang: "Jl.karya wisata Medan Johor", ),
